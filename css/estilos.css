@@ -53,7 +53,11 @@ nav .active {
     background-image: url("../images/fondo-contacto.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    
+}
+#sobre-mi {
+    background-image: url("../images/fondo-proyectos.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #proyectos h2{
     color: white;
@@ -182,6 +186,14 @@ color: #6a6a6a;
     color: white;
     background-color: #370a6d;
 }
+#sobre-mi .fa-github:before {
+    content: "\f09b";
+    color: #370a6d;
+}
+#sobre-mi footer .fa-linkedin-in {
+    color: white;
+    background-color: #370a6d;
+}
 textarea.form-control {
     min-height: calc(1.5em + 0.75rem + 2px);
 }
@@ -191,6 +203,19 @@ textarea.form-control {
 }
 #proyectos footer a{
     color: #370a6d ;
+}
+#sobre-mi footer{
+    color: #370a6d ;
+}
+#sobre-mi footer a{
+    color: #370a6d ;
+}
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 @media(max-width: 750px) {/*para mobile*/
