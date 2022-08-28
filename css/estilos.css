@@ -44,47 +44,61 @@ nav .active {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#proyectos {
+
+#proyectos{
     background-image: url("../images/fondo-proyectos.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#Inicio {
+
+#Inicio{
     background-image: url("../images/fondo-contacto.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 110%;
 }
+
 #sobre-mi {
     background-image: url("../images/fondo-proyectos.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#proyectos h2{
+
+#proyectos h2 {
     color: white;
     font-size: 16px;
 }
-#proyectos img{
+
+#proyectos img {
     height: 210px;
     background-color: white;
     padding: 0px;
 }
 
-.bloque p{
+.bloque p {
     height: 90px;
+
+}
+
+.gradiente {
+    background: rgb(34, 1, 85);
+    background: linear-gradient(90deg, rgba(34, 1, 85, 1) 0%, rgba(73, 21, 110, 1) 46%, rgba(85, 59, 106, 0.9700922605370274) 100%);
+}
+
+.color-gradiente {
+    background: rgba(184, 37, 20, 1);
+    background: -moz-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184, 37, 20, 1)), color-stop(47%, rgba(214, 52, 30, 1)), color-stop(70%, rgba(240, 47, 23, 1)), color-stop(100%, rgba(240, 47, 23, 1)));
+    background: -webkit-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -o-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b82514', endColorstr='#f02f17', GradientType=1);
+}
+
+footer,
+footer a {
+    color: white;
     
-}
-
-.gradiente{
-    background: rgb(34,1,85);
-    background: linear-gradient(90deg, rgba(34,1,85,1) 0%, rgba(73,21,110,1) 46%, rgba(85,59,106,0.9700922605370274) 100%);
-}
-.abm{
-    color: white;
-}
-
-footer, footer a {
-    color: white;
-    font-weight: 100;
 }
 
 footer .fa-github {
@@ -119,7 +133,7 @@ footer .fa-linkedin-in {
     bottom: 0px;
 }
 
-i{
+i {
     color: white;
 }
 
@@ -131,35 +145,38 @@ i{
 
 
 .navbar-toggler:focus {
-    box-shadow: none ;
+    box-shadow: none;
     background-color: #370a6d;
-    color: white ;
+    color: white;
     border: 1px solid #370a6d;
 
 }
-#contacto .codigo-qr h2{
-font-size: 16px;
-color: #6a6a6a;
+
+#contacto .codigo-qr h2 {
+    font-size: 16px;
+    color: #6a6a6a;
 
 }
-#contacto .codigo-qr img{
-   width: 150px;
-    }
+
+#contacto .codigo-qr img {
+    width: 150px;
+}
 
 #Inicio .cohete{
     height: 400px;
 }
-#Inicio .cohete:hover {
+
+.div-cohete{
     height: 410px;
 }
 
-#Inicio .input-home p{
+#Inicio .input-home p {
     color: white;
     font-size: 17px;
     border: 1px solid white;
     border-radius: 50px;
     font-weight: 600;
-    }
+}
 
 .btn-rojo {
     background-color: #E20000 !important;
@@ -167,49 +184,59 @@ color: #6a6a6a;
     font-weight: 100;
     border-radius: 15px;
 }
-.btn-morado{
-    background-color: #370a6d ;
+
+.btn-morado {
+    background-color: #370a6d;
     color: white;
     font-weight: 100;
     border-radius: 15px;
 }
 
 .navbar-toggler {
-    color: white ;
+    color: white;
     border: 1px solid #370a6d;
 }
+
 #proyectos .fa-github:before {
     content: "\f09b";
     color: #370a6d;
 }
+
 #proyectos footer .fa-linkedin-in {
     color: white;
     background-color: #370a6d;
 }
+
 #sobre-mi .fa-github:before {
     content: "\f09b";
     color: #370a6d;
 }
+
 #sobre-mi footer .fa-linkedin-in {
     color: white;
     background-color: #370a6d;
 }
+
 textarea.form-control {
     min-height: calc(1.5em + 0.75rem + 2px);
 }
 
-#proyectos footer{
-    color: #370a6d ;
+#proyectos footer {
+    color: #370a6d;
 }
-#proyectos footer a{
-    color: #370a6d ;
+
+#proyectos footer a {
+    color: #370a6d;
 }
-#sobre-mi footer{
-    color: #370a6d ;
+
+#sobre-mi footer {
+    color: #370a6d;
 }
-#sobre-mi footer a{
-    color: #370a6d ;
+
+#sobre-mi footer a {
+    color: #370a6d;
 }
+
 .img-circle {
     margin: 1em auto;
     display: block;
@@ -218,17 +245,49 @@ textarea.form-control {
     border-radius: 50%;
 }
 
-@media(max-width: 750px) {/*para mobile*/
+
+/*Sobre mi*/
+#sobre-mi .card {
+    height: 182px;
+    flex: 0 0 auto;
+    padding-top: 3rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+    padding-bottom: 3rem !important;
+    margin-bottom: 0 !important;
+    
+  
+
+}
+#sobre-mi .text-center{
+    margin: auto;
+}
+
+#sobre-mi h3 {
+    font-size: 13px;
+    color: #282828;
+    font-weight: 300;
+}
+
+
+
+
+@media(max-width: 750px) {
+
+    /*para mobile*/
     #contacto {
         background-image: url("../images/fondo-proyectos.png");
     }
+
     #Inicio {
         background-image: url("../images/fondo-proyectos.png");
     }
-#Inicio .input-home p{
-    color: #E20000;
-    border: 1px solid #E20000;
-}
+
+    #Inicio .input-home p {
+        color: #E20000;
+        border: 1px solid #E20000;
+    }
+
     footer {
         text-align: center;
     }
@@ -241,6 +300,7 @@ textarea.form-control {
     footer .fa-github {
         color: #370a6d !important;
     }
+
     .fa-linkedin-in:before {
         content: "\f0e1";
         color: #370a6d;
