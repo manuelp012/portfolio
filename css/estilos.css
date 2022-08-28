@@ -162,12 +162,17 @@ i {
     width: 150px;
 }
 
-#Inicio .cohete{
+#Inicio .cohete {
     height: 400px;
 }
-
-.div-cohete{
+#Inicio .cohete:hover{
     height: 410px;
+}
+#Inicio .div-cohete{
+    height: 410px;
+}
+#Inicio .row{
+    display: flex;
 }
 
 #Inicio .input-home p {
