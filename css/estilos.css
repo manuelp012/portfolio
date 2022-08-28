@@ -182,6 +182,46 @@ i {
     border-radius: 50px;
     font-weight: 600;
 }
+#experiencia h2{
+    font-weight: 400px;
+    font-size: 24px;
+    color: #370a6d;
+}
+.fa-briefcase:before {
+    color: #370a6d;
+}
+#Formacion h2{
+    font-weight: 400px;
+    font-size: 24px;
+    color: #370a6d;
+}
+.fa-graduation-cap:before{
+    color: #370a6d;
+}
+#idiomas .card{
+    background-color: #370a6d;
+    border-radius: 15px;
+    padding: 40px 0;
+    
+}
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
+#idiomas {
+    background-color: #eee;
+    padding-top: 3rem !important;
+}
+#idiomas h2 {
+    font-size: 16px;
+    font-weight: 600px;
+}
+#idiomas ul {
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
 
 .btn-rojo {
     background-color: #E20000 !important;
