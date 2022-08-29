@@ -63,7 +63,7 @@
                     <h1 class="mt-sm-4 pb-sm-4">Sobre mí</h1>
                     <p class="pb-sm-5">Gusto por la tecnología y gestión de proyectos. Estudiante de
                         programación Full Stack y de Base de datos.</p>
-                    <a href="contacto.html" class="btn btn-morado">Enviar mensaje</a>
+                    <a href="contacto.php" class="btn btn-morado">Enviar mensaje</a>
 
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2">
